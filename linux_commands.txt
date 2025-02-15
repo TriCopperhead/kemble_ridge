@@ -1,0 +1,64 @@
+
+------------------------------------------------------------
+  List of basic linux commands:
+------------------------------------------------------------
+
+man
+  -show the manual for any given command
+  -most commands will use -h or --help as ways to show usage
+
+ls
+  -list files in current directory
+
+cd
+  -change directory
+  -. (single dot) is relative to current path
+  -.. (double dots) is backwards in the directory tree
+
+pwd
+  -print working directory -- shows where you are
+
+which
+  -show what version of the file is used or if it exists wrt an executable
+
+cat
+  -display a file to the terminal
+
+grep
+  -reads files and searches for given strings
+
+find
+  -reads file names and searches for given strings
+
+emacs
+  -open the emacs enditor for usage
+
+git
+  -primary command for accessing remote repos
+  -git pull
+    -update the local repo to the latest version of the remote repo
+  -git status
+    -shows the updates for the local repo
+  -git commit
+    -stage the changes in the current local repo
+  -git push
+    -send the staged changes in the local repo to the remote repo
+  -git log
+    -show a list of commits, their SHAs, authors, and comments
+
+apt-get
+  -a tool for finding and downloading new programs
+
+python3
+  -run python3 scripts or the commandline if none are given
+
+
+------------------------------------------------------------
+C++ Setup:
+------------------------------------------------------------
+  -sudo apt-get update
+  -sudo apt-get install g++
+  -which g++
+  -cd starter_cpp/
+  -g++ main.cpp -o main
+  -./main
